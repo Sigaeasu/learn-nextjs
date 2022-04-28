@@ -18,5 +18,7 @@ const DUMMY_MEETUPS = [
 ]
 
 export default function Home() {
-    return <MeetupList meetups={DUMMY_MEETUPS} />
+    return (
+        <MeetupList meetups={DUMMY_MEETUPS} />
+    )
 }
